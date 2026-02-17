@@ -673,8 +673,6 @@ dream_list = {
     "Dream: 5 Radiant Nightmares!" : [1000525, ["endl_nightmare"]],
     "Dream: 20 Radiant Nightmares!" : [1000526, ["endl_nightmare","grind"]],
     "Dream: 45 Radiant Nightmares!" : [1000527, ["endl_nightmare","very_grind"]],
-    #for testing:
-    "Dream: Something Something Quick" : [1004242, ["quickplay"]]
 }
 
 story_medals = {
