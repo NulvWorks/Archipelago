@@ -695,6 +695,28 @@ dream_list = {
     "Dream: Give Me Fuel, Give Me Fire" : [1000547, []],
     "Dream: Potential Energy" : [1000548, ["tedious"]],
     "Dream: Path of Least Resistance" : [1000549, []],
+    "Dream: Rending Rendy" : [1000550, ["grind"]],
+    "Dream: Nuclear Scrambled Eggs" : [1000551, []],
+    "Dream: Don't Let It Go" : [1000552, ["tedious"]],
+    "Dream: Egg Snipe" : [1000553, []],
+    "Dream: Eye Love You" : [1000554, []],
+    "Dream: Naked Roundsaw" : [1000555, []],
+    "Dream: Manic Wyvern" : [1000556, []], #needs overlevelling
+    "Dream: Power Tool Lover" : [1000557, ["grind"]],
+    "Dream: Let Me Hug You!" : [1000558, []],
+    "Dream: Dragon Tails" : [1000559, []],
+    "Dream: Unspookable" : [1000560, []],
+    "Dream: Eye Adjust to My New Sights" : [1000561, []],
+    "Dream: Eyes Where There Shouldn't Be" : [1000562, ["very_tedious"]],
+    "Dream: A Cauldron of Eyeballs" : [1000563, ["grind"]], #maybe very_grind, forgot how many aviocs appear approx.
+    "Dream: Enter Sandrome" : [1000564, []],
+    "Dream: Cactus Hunter" : [1000565, ["grind"]],
+    "Dream: Iron Maiden" : [1000566, ["tedious"]],
+    "Dream: Extra Spicy Noodle" : [1000567, []],
+    "Dream: I Bet This Arm on a New Era" : [1000568, []],
+    "Dream: Falling From Her Grace Again" : [1000569, []],
+    "Dream: Shanx N' Roses" : [1000570, []],
+    "Dream: Scream Aim Fire!" : [1000571, []],
 }
 
 story_medals = { #will be implemented in major update 2
