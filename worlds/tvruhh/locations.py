@@ -761,6 +761,28 @@ dream_list = {
     "Dream: Don't Make Me Come Back There!" : [1000613, []],
     "Dream: OK, 3, 2, 1, Blast Off!" : [1000614, ["tedious"]],
     "Dream: I'll Be the Roundabout" : [1000615, ["tedious"]],
+    "Dream: Schism of Petals" : [1000616, ["tedious"]],
+    "Dream: Parabola of Vines" : [1000617, ["tedious"]],
+    "Dream: Fragile Flower" : [1000618, ["tedious"]],
+    "Dream: Glass Harvest" : [1000619, ["grind"]],
+    "Dream: Become So Numb" : [1000620, ["tedious"]],
+    "Dream: Frozen Mote Harvest" : [1000621, ["grind"]],
+    "Dream: Null Harvest" : [1000622, ["grind"]],
+    "Dream: She Loves Me Not" : [1000623, ["tedious"]],
+    "Dream: Lightning Reflex" : [1000624, []],
+    "Dream: Kracked Flower" : [1000625, []],
+    "Dream: Mowing the Glass" : [1000626, []],
+    "Dream: In Bloom" : [1000627, []],
+    "Dream: Rage Harvest" : [1000628, []],
+    "Dream: Inside the Fire" : [1000629, []],
+    "Dream: Uneven Flow" : [1000630, []],
+    "Dream: Strong in the Real Way" : [1000631, ["tedious"]], #tanky build needed
+    "Dream: Glamomorous" : [1000632, ["tedious"]],
+    "Dream: Dance of Death" : [1000633, ["grind"]],
+    "Dream: Petals in the Golden Wind" : [1000634, ["tedious"]],
+    "Dream: Stage Fright" : [1000635, []],
+    "Dream: Kiwi Harvest" : [1000636, ["grind"]],
+    "Dream: Favorite Flower" : [1000637, []],
 }
 
 story_medals = { #will be implemented in major update 2
