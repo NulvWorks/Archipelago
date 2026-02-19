@@ -739,6 +739,28 @@ dream_list = {
     "Dream: Ride the Lightning" : [1000591, []],
     "Dream: The Most Loneliest Day" : [1000592, []],
     "Dream: Raining Blood" : [1000593, ["grind"]],
+    "Dream: Absolute Unit" : [1000594, []],
+    "Dream: Lulu's Lightning Love" : [1000595, []],
+    "Dream: Dangling Pointer" : [1000596, ["tedious"]],
+    "Dream: Segmentation Fault" : [1000597, []],
+    "Dream: A Cute Angle" : [1000598, ["tedious"]],
+    "Dream: Simple Geometry" : [1000599, ["tedious"]], #tedious because it's story, good luck having a tanky build
+    "Dream: Safety Circumference" : [1000600, []],
+    "Dream: Angry Angle" : [1000601, ["grind"]],
+    "Dream: Dual Destruction" : [1000602, []],
+    "Dream: Bisected Angle" : [1000603, []],
+    "Dream: Chaotic Indecision" : [1000604, []],
+    "Dream: Deactivation Sequence" : [1000605, []],
+    "Dream: Panic Mode Averted" : [1000606, []],
+    "Dream: One Step Closer" : [1000607, []],
+    "Dream: Pure Component" : [1000608, ["tedious"]],
+    "Dream: Pure Breaker" : [1000609, ["tedious"]],
+    "Dream: You Should Not Be Here" : [1000610, []],
+    "Dream: Quadraxis Annihilated" : [1000611, []],
+    "Dream: The Sum of All Zeroes" : [1000612, []], #Overleveling
+    "Dream: Don't Make Me Come Back There!" : [1000613, []],
+    "Dream: OK, 3, 2, 1, Blast Off!" : [1000614, ["tedious"]],
+    "Dream: I'll Be the Roundabout" : [1000615, ["tedious"]],
 }
 
 story_medals = { #will be implemented in major update 2
