@@ -675,159 +675,159 @@ dream_list = {
     "Dream: 45 Radiant Nightmares!" : [1000527, ["endl_nightmare","very_grind"]],
 }
 
-story_medals = {
+story_medals = { #will be implemented in major update 2
 
 }
 
-qp_copper = {
+qp_copper = { #will be implemented in major update 1
     #"QP Copper: Scrambla" : [1020000, []]
 }
 
-qp_bronze = {
+qp_bronze = { #will be implemented in major update 1
 
 }
 
-qp_silver = {
+qp_silver = { #will be implemented in major update 1
 
 }
 
-qp_gold = {
+qp_gold = { #will be implemented in major update 1
 
 }
 
-qp_radiant = {
+qp_radiant = { #will be implemented in major update 1
 
 }
 
-uqp_rad1 = {
+uqp_rad1 = { #will be implemented in major update 1
 
 }
 
-uqp_rad2 = {
+uqp_rad2 = { #will be implemented in major update 1
 
 }
 
-uqp_rad3 = {
+uqp_rad3 = { #will be implemented in major update 1
 
 }
 
-altstory_copper = {
+altstory_copper = { #will be implemented in major update 1
 
 }
 
-altstory_bronze = {
+altstory_bronze = { #will be implemented in major update 1
 
 }
 
-altstory_silver = {
+altstory_silver = { #will be implemented in major update 1
 
 }
 
-altstory_gold = {
+altstory_gold = { #will be implemented in major update 1
 
 }
 
-altstory_radiant = {
+altstory_radiant = { #will be implemented in major update 1
 
 }
 
-altstory_rose = {
+altstory_rose = { #will be implemented in major update 2
 
 }
 
-altstory_crimson = {
+altstory_crimson = { #will be implemented in major update 2
 
 }
 
-towers_copper = {
+towers_copper = { #will be implemented in major update 1
 
 }
 
-towers_bronze = {
+towers_bronze = { #will be implemented in major update 1
 
 }
 
-towers_silver = {
+towers_silver = { #will be implemented in major update 1
 
 }
 
-towers_gold = {
+towers_gold = { #will be implemented in major update 1
 
 }
 
-towers_radiant = {
+towers_radiant = { #will be implemented in major update 1
 
 }
 
-endl_str_copper = {
+endl_str_copper = { #will be implemented in major update 1
 
 }
 
-endl_str_bronze = {
+endl_str_bronze = { #will be implemented in major update 1
 
 }
 
-endl_str_silver = {
+endl_str_silver = { #will be implemented in major update 1
 
 }
 
-endl_str_gold = {
+endl_str_gold = { #will be implemented in major update 1
 
 }
 
-endl_str_radiant = {
+endl_str_radiant = { #will be implemented in major update 1
 
 }
 
-endl_ter_copper = {
+endl_ter_copper = { #will be implemented in major update 1
 
 }
 
-endl_ter_bronze = {
+endl_ter_bronze = { #will be implemented in major update 1
 
 }
 
-endl_ter_silver = {
+endl_ter_silver = { #will be implemented in major update 1
 
 }
 
-endl_ter_gold = {
+endl_ter_gold = { #will be implemented in major update 1
 
 }
 
-endl_ter_radiant = {
+endl_ter_radiant = { #will be implemented in major update 1
 
 }
 
-sublime_uqp = {
+sublime_uqp = { #will be implemented in major update 2
 
 }
 
-sublime_altstory = {
+sublime_altstory = { #will be implemented in major update 2
 
 }
 
-sublime_tower = {
+sublime_tower = { #will be implemented in major update 2
 
 }
 
-sublime_endless = {
+sublime_endless = { #will be implemented in major update 2
 
 }
 
-qp_upgrades = {
+qp_upgrades = { #will be implemented in major update 2
 
 }
 
-altstory_upgr = {
+altstory_upgr = { #will be implemented in major update 2
 
 }
 
-endless_upgr = {
+endless_upgr = { #will be implemented in major update 2
 
 }
 
-event_upgrades = {
+event_upgrades = { #will be implemented in major update 2
 
 }
 
