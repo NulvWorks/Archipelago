@@ -783,6 +783,34 @@ dream_list = {
     "Dream: Stage Fright" : [1000635, []],
     "Dream: Kiwi Harvest" : [1000636, ["grind"]],
     "Dream: Favorite Flower" : [1000637, []],
+    "Dream: Division by Zero" : [1000638, []],
+    "Dream: Half Empty" : [1000639, []],
+    "Dream: Burn It Down!" : [1000640, []],
+    "Dream: Full Burn!" : [1000641, []],
+    "Dream: Cannot Stop The Battery!" : [1000642, []],
+    "Dream: High Voltage" : [1000643, ["grind"]],
+    "Dream: Aerial Toxicity" : [1000644, ["tedious"]],
+    "Dream: Deep Breath" : [1000645, []],
+    "Dream: Trapped Under Ice" : [1000646, ["tedious"]], #actually easy with plume shots?
+    "Dream: 100 Sub Zero" : [1000647, ["grind"]],
+    "Dream: Color Inside the Lines" : [1000648, ["tedious"]],
+    "Dream: Radiant Eclipse" : [1000649, []],
+    "Dream: Harbingers of Love" : [1000650, []],
+    "Dream: Light, Warmth, Spark, Chemistry" : [1000651, []],
+    "Dream: Love You in Particular" : [1000652, []],
+    "Dream: Alone in the Rain" : [1000653, ["grind"]],
+    "Dream: Fury of the Storm" : [1000654, []], #overlevel
+    "Dream: Eye of the Storm" : [1000655, ["tedious"]],
+    "Dream: Lovely Solvent" : [1000656, ["tedious"]],
+    "Dream: When Life Gives You Oranges" : [1000657, ["grind"]],
+    "Dream: While My Veyeral Gently Weeps" : [1000658, []],
+    "Dream: Bloody Blizzard" : [1000659, ["grind"]],
+    "Dream: No Time at All" : [1000660, ["quickplay"]], #any mode, but I highly doubt this is doable in story without an absolutely broken build
+    "Dream: Through the Null and the Void" : [1000661, []],
+    "Dream: Far Below Nothing" : [1000662, []],
+    "Dream: Like It Was Nothing" : [1000663, []],
+    "Dream: Blue's Perfect Party" : [1000664, []],
+    "Dream: Perfected Perfection" : [1000665, []],
 }
 
 story_medals = { #will be implemented in major update 2
