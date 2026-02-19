@@ -717,6 +717,28 @@ dream_list = {
     "Dream: Falling From Her Grace Again" : [1000569, []],
     "Dream: Shanx N' Roses" : [1000570, []],
     "Dream: Scream Aim Fire!" : [1000571, []],
+    "Dream: In a Flash" : [1000572, []], #would say quickplay's needed, otherwise very_tedious in story
+    "Dream: Photo Finish" : [1000573, []],
+    "Dream: Deforestation" : [1000574, ["grind"]],
+    "Dream: Trees Can Be Scary..." : [1000575, []],
+    "Dream: Sprinkler System" : [1000576, []],
+    "Dream: Bleeding Me" : [1000577, ["very_tedious"]],
+    "Dream: Black Rain" : [1000578, ["grind"]],
+    "Dream: Clear Skies" : [1000579, []],
+    "Dream: This is the Art of Ruin" : [1000580, ["tedious"]],
+    "Dream: End of The World" : [1000581, []],
+    "Dream: Grossly Incandescent" : [1000582, []],
+    "Dream: All That Glitters Is Gold" : [1000583, ["grind"]],
+    "Dream: Chemical Warfare" : [1000584, ["grind"]],
+    "Dream: Poison Was the Cure" : [1000585, []],
+    "Dream: Walk With Me In Hell" : [1000586, []],
+    "Dream: Phoenix Down" : [1000587, []],
+    "Dream: My Tears Don't Fall, They Freeze Around Me" : [1000588, []],
+    "Dream: You're as Cold as Ice" : [1000589, []],
+    "Dream: Hit the Lights" : [1000590, []],
+    "Dream: Ride the Lightning" : [1000591, []],
+    "Dream: The Most Loneliest Day" : [1000592, []],
+    "Dream: Raining Blood" : [1000593, ["grind"]],
 }
 
 story_medals = { #will be implemented in major update 2
