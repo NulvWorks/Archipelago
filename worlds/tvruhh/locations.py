@@ -98,7 +98,7 @@ def updatebbl(whichlist) -> None:
 
 # First three numbers indicate what type location it is
 # Last four numbers is the count
-# 100 = dreams (status: currently being worked on)
+# 100 = dreams (status: Done for current release)
 # 101 = story medals (status: WIP)
 # 102 = quickplay copper medals (status: WIP)
 # 103 = quickplay bronze medals (status: WIP)
@@ -191,6 +191,7 @@ dream_list = {
     "Dream: Star Allies in the Void" : [1000040, []],
     "Dream: The Friends We Made Along the Way" : [1000041, []],
     "Dream: Gotta Love Em All!" : [1000042, []],
+    "Dream: My Eleventy Closest Nightmares" : [1000757, []],
     "Dream: Full Combo!" : [1000043, []],
     "Dream: Affection Sevenfold" : [1000044, []],
     "Dream: The Ace of Hearts" : [1000045, []],
@@ -258,6 +259,7 @@ dream_list = {
     "Dream: Known Occurences" : [1000105, []],
     "Dream: Discovered Miracles" : [1000106, []],
     "Dream: A Series of Fortunate Events" : [1000107, []],
+    "Dream: As The Legends Foretold" : [1000756, []],
     # Heart Trials
     #  Trials of Her Heart
     "Dream: Her Heart: Story Lover" : [1000108, []],
@@ -382,8 +384,6 @@ dream_list = {
     "Dream: Torrential Triplet" : [1000221, ["tedious","torr_rain"]],
     #  Story Events
     "Dream: Random Encounters" : [1000222, []],
-    "Dream: All The Pretty Faces" : [1000223, []],
-    "Dream: Scary Monsters and Lovely Creeps" : [1000224, ["grind"]],
     "Dream: Lonely Gift" : [1000225, []],
     "Dream: The Key to Love" : [1000226, []],
     "Dream: Rest Assured" : [1000227, []],
@@ -391,10 +391,20 @@ dream_list = {
     "Dream: Phobiasynthesis" : [1000229, ["grind"]],
     "Dream: What Plants Crave!" : [1000230, ["grind"]],
     "Dream: The Call of the Garden" : [1000231, []],
+    "Dream: All The Pretty Faces" : [1000223, []],
+    "Dream: Scary Monsters and Lovely Creeps" : [1000224, ["grind"]],
+    "Dream: Friend of the Fragmented" : [1000758, []],
+    "Dream: Friend of the Creatures" : [1000759, []],
+    "Dream: Friend of the Symbols" : [1000760, []],
+    "Dream: Friend of the Robots" : [1000761, []],
+    "Dream: Friend of the Flowers" : [1000762, []],
+    "Dream: Friend of the Eyeballs" : [1000763, []],
     "Dream: Secret Admirer" : [1000232, []],
     "Dream: Don't Forget to Breathe" : [1000233, []],
     "Dream: Boss Rush in My Boss Rush" : [1000234, []],
     #  Monster Events
+    "Dream: Known Unknowns": [1000764, []],
+    "Dream: Mrs. Brightside": [1000765, []],
     "Dream: To My Future Self" : [1000235, []],
     "Dream: Tomorrow is Already Loved" : [1000236, []],
     "Dream: Fully Scrambled" : [1000237, []],
@@ -442,15 +452,19 @@ dream_list = {
     "Dream: The Gift of Giving" : [1000277, []],
     "Dream: Just Warming Up" : [1000278, []],
     "Dream: Vibrant Trade" : [1000279, []],
+    "Dream: Give and Take" : [1000755, []],
     #  Monster Bonding
     "Dream: Time's Up Already?" : [1000280, []],
     "Dream: 5 Bonding Time Gifts" : [1000281, []],
     "Dream: 15 Bonding Time Gifts" : [1000282, ["grind"]],
     "Dream: 40 Bonding Time Gifts" : [1000283, ["very_grind"]],
     "Dream: 90 Bonding Time Gifts" : [1000284, ["very_grind"]],
+    "Dream: No Rest for a Vault Hunter" : [1000752, []],
+    "Dream: Meet You in the Stars Tonight" : [1000753, []],
     "Dream: Demonlord's Souls" : [1000285, ["grind"]],
     "Dream: Absolute Destiny Apocalypse" : [1000286, []],
     "Dream: I Would Walk Five Hundred Tiles" : [1000287, ["grind"]],
+    "Dream: Trashed and Scattered Again" : [1000754, ["grind"]],
     "Dream: I Know the Pieces Fit" : [1000288, ["tedious"]],
     "Dream: A Critical Roll!" : [1000289, ["grind"]],
     "Dream: Veyeral Games" : [1000290, []],
@@ -859,6 +873,8 @@ dream_list = {
     "Dream: Blue's Perfect Party" : [1000664, []],
     "Dream: Perfected Perfection" : [1000665, []],
     #  Special Monster Dreams
+    "Dream: Dust in the Wind" : [1000742, []],
+    "Dream: Did You Really Need That?" : [1000743, []],
     "Dream: Are You Even Trying?" : [1000666, ["tedious"]], #needs tanky build
     "Dream: Karmic Deficiency Disorder" : [1000667, ["grind"]],
     "Dream: Here Comes the Sun" : [1000668, []],
@@ -873,8 +889,16 @@ dream_list = {
     "Dream: All I've Got Is Lunacy!" : [1000677, []],
     "Dream: Flawless Jewelry" : [1000678, ["tedious"]],
     "Dream: Thirty Trinity Treasures" : [1000679, ["grind"]],
+    "Dream: You Are Stellar" : [1000748, []],
+    "Dream: Sunny Disposition" : [1000749, []],
+    "Dream: Eyeris Defense Force" : [1000750, []],
+    "Dream: Bark at the Moon" : [1000751, []],
     "Dream: Hold Your Breath" : [1000680, []],
     "Dream: Panic Disorder" : [1000681, ["grind"]],
+    "Dream: Fight Fire With Fire" : [1000744, ["grind"]],
+    "Dream: Nerve Damage" : [1000745, ["grind"]],
+    "Dream: Seek and Destroy" : [1000746, []],
+    "Dream: Nervous Disorder" : [1000747, ["grind"]],
     "Dream: Creeping Death" : [1000682, []],
     "Dream: Breathing Disorder" : [1000683, ["grind"]],
     #  Shiny Dreams
@@ -939,6 +963,7 @@ dream_list = {
     "Dream: Echo's Birthday Hug" : [1000739, []],
     "Dream: Black Hole Sun" : [1000740, ["tedious"]],
     "Dream: Forma's Birthday Hug" : [1000741, []],
+    #Current highest ID: 1000765
 }
 
 story_medals = { #will be implemented in major update 2
