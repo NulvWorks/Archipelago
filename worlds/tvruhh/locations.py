@@ -875,6 +875,18 @@ dream_list = {
     "Dream: Owner of a Lonely Heart" : [1000727, []],
     "Dream: You're a Heartbreaker, Dream Maker" : [1000728, ["tedious"]],
     "Dream: Save Me" : [1000729, []],
+    "Dream: Polyp Popper" : [1000730, ["grind"]],
+    "Dream: Shamra's Birthday Hug" : [1000731, []],
+    "Dream: True Guardian Soul EX" : [1000732, []], #overlevel
+    "Dream: New Guardian's Birthday Hug" : [1000733, ["grind"]],
+    "Dream: Focus on the Target" : [1000734, []],
+    "Dream: Oudenai's Birthday Hug" : [1000735, []],
+    "Dream: I'm Made of Metal, My Circuits Gleam" : [1000736, ["grind"]],
+    "Dream: Default Birthday Hug" : [1000737, []],
+    "Dream: Echo Harvest" : [1000738, ["grind"]],
+    "Dream: Echo's Birthday Hug" : [1000739, []],
+    "Dream: Black Hole Sun" : [1000740, ["tedious"]],
+    "Dream: Forma's Birthday Hug" : [1000741, []],
 }
 
 story_medals = { #will be implemented in major update 2
