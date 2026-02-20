@@ -811,6 +811,24 @@ dream_list = {
     "Dream: Like It Was Nothing" : [1000663, []],
     "Dream: Blue's Perfect Party" : [1000664, []],
     "Dream: Perfected Perfection" : [1000665, []],
+    "Dream: Are You Even Trying?" : [1000666, ["tedious"]], #needs tanky build
+    "Dream: Karmic Deficiency Disorder" : [1000667, ["grind"]],
+    "Dream: Here Comes the Sun" : [1000668, []],
+    "Dream: Bright and Stellar" : [1000669, ["grind"]],
+    "Dream: Full Moon" : [1000670, []],
+    "Dream: Celestial Shine" : [1000671, ["grind"]],
+    "Dream: All for One" : [1000672, []],
+    "Dream: One for All" : [1000673, []],
+    "Dream: Attack the Light" : [1000674, []],
+    "Dream: Ultra Vivid" : [1000675, []], #overlevel
+    "Dream: Shine Brightly" : [1000676, []], #overlevel
+    "Dream: All I've Got Is Lunacy!" : [1000677, []],
+    "Dream: Flawless Jewelry" : [1000678, ["tedious"]],
+    "Dream: Thirty Trinity Treasures" : [1000679, ["grind"]],
+    "Dream: Hold Your Breath" : [1000680, []],
+    "Dream: Panic Disorder" : [1000681, ["grind"]],
+    "Dream: Creeping Death" : [1000682, []],
+    "Dream: Breathing Disorder" : [1000683, ["grind"]],
 }
 
 story_medals = { #will be implemented in major update 2
