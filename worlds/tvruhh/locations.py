@@ -145,6 +145,8 @@ def updatebbl(whichlist) -> None:
 # anything that is not contained in a sublist will have location-based rules in rules.py
 
 dream_list = {
+    # Lovely Dreams
+    #  Accumulation Goals
     "Dream: Love at First Shot" : [1000000, []],
     "Dream: Monster Admirer" : [1000001, []],
     "Dream: Monster Hugger" : [1000002, []],
@@ -178,6 +180,7 @@ dream_list = {
     "Dream: The Void Rains Down Upon You" : [1000030, []],
     "Dream: Alone in the Dark" : [1000031, ["grind"]],
     "Dream: Fever Dream" : [1000032, []],
+    #  Lovely Feats
     "Dream: Gathering Hearts" : [1000033, []],
     "Dream: Making Friends" : [1000034, []],
     "Dream: Monster Party" : [1000035, []],
@@ -205,6 +208,7 @@ dream_list = {
     "Dream: No Need to Panic" : [1000057, ["tedious"]],
     "Dream: Indestructible Master of Love" : [1000058, ["very_tedious"]], #Items like Self-Portrait and Denial are absolutely needed to survive this
     "Dream: Tsundere" : [1000059, ["tedious"]],
+    #  Tetrid Totals
     "Dream: Tetrahedron of Shame" : [1000060, ["grind"]],
     "Dream: Tetrahedron of Frustration" : [1000061, ["grind"]],
     "Dream: Tetrahedron of Denial" : [1000062, ["grind"]],
@@ -221,6 +225,7 @@ dream_list = {
     "Dream: Crystallized Dyophobia" : [1000073, ["very_grind"]],
     "Dream: Crystallized Triskaphobia" : [1000074, ["very_grind"]],
     "Dream: Crystallized Tetraphobia" : [1000075, ["very_grind"]],
+    #  Collection Ambitions
     "Dream: Shiny Monster Cards" : [1000076, []],
     "Dream: Glowing Starter Pack" : [1000077, []],
     "Dream: Lovely Deck of Monsters" : [1000078, []],
@@ -253,6 +258,8 @@ dream_list = {
     "Dream: Known Occurences" : [1000105, []],
     "Dream: Discovered Miracles" : [1000106, []],
     "Dream: A Series of Fortunate Events" : [1000107, []],
+    # Heart Trials
+    #  Trials of Her Heart
     "Dream: Her Heart: Story Lover" : [1000108, []],
     "Dream: Her Heart: Karma Collector" : [1000109, ["grind"]],
     "Dream: Her Heart: Heavy Combo Keeper" : [1000110, ["heavy_rain"]],
@@ -269,6 +276,7 @@ dream_list = {
     "Dream: Alter Heart: Radiance" : [1000121, ["alt_her","quickplay"]],
     "Dream: Alter Heart: Nightmare Lover" : [1000122, ["alt_her","endl_nightmare"]],
     "Dream: Alter Heart: Combo Nightmare" : [1000123, ["alt_her","endl_nightmare","tedious"]],
+    #  Trials of Defect
     "Dream: Defect: Flawless Five" : [1000124, ["defect"]],
     "Dream: Defect: Mote Extractor" : [1000125, ["defect"]],
     "Dream: Defect: Light Combo Keeper" : [1000126, ["defect"]],
@@ -285,6 +293,7 @@ dream_list = {
     "Dream: Alter Defect: Double Radiance" : [1000137, ["alt_defect","ult_quick"]],
     "Dream: Alter Defect: Nightmare Challenger" : [1000138, ["alt_defect","endl_nightmare"]],
     "Dream: Alter Defect: Perfect Nightmare" : [1000139, ["alt_defect","endl_nightmare"]],
+    #  Trials of Twin Heart
     "Dream: Twin Heart: Story Lover" : [1000140, ["twin"]],
     "Dream: Twin Heart: Light Karma" : [1000141, ["twin"]],
     "Dream: Twin Heart: Full Combos" : [1000142, ["twin"]],
@@ -301,6 +310,7 @@ dream_list = {
     "Dream: Alter Twin: Quickplay Lover" : [1000153, ["alt_twin","quickplay"]],
     "Dream: Alter Twin: Karma Collector" : [1000154, ["alt_twin","endl_nightmare"]],
     "Dream: Alter Twin: Quad Combo" : [1000155, ["alt_twin","endl_nightmare"]],
+    # Trials of The Devil
     "Dream: The Devil: Mote Extractor" : [1000156, ["devil"]],
     "Dream: The Devil: Karma Collector" : [1000157, ["devil","grind"]],
     "Dream: The Devil: Heavy Challenger" : [1000158, ["devil","heavy_rain"]],
@@ -317,6 +327,8 @@ dream_list = {
     "Dream: Alter Devil: High Score" : [1000169, ["alt_devil","quickplay"]],
     "Dream: Alter Devil: Escalating Stress" : [1000170, ["alt_devil","endl_stress"]],
     "Dream: Alter Devil: Nightmare Combo" : [1000171, ["alt_devil","endl_nightmare","tedious"]],
+    # Story Dreams
+    #  Story Goals
     "Dream: She Will Repair It" : [1000172, []],
     "Dream: Defective Heart" : [1000173, []],
     "Dream: One Chapter Clear" : [1000174, []],
@@ -345,6 +357,7 @@ dream_list = {
     "Dream: RNG Dominator?" : [1000197, []],
     "Dream: Hacked Dice" : [1000198, ["heavy_rain"]], #At this point I wonder if alter story is just the better way for this
     "Dream: Excessively Superfluous Luck" : [1000199, ["heavy_rain","grind"]],
+    #  Story Feats
     "Dream: Lucky 13" : [1000200, []],
     "Dream: A Wonderful Gift" : [1000201, []],
     "Dream: They Really Love Me!" : [1000202, []],
@@ -367,6 +380,7 @@ dream_list = {
     "Dream: Triple Deluxe" : [1000219, []],
     "Dream: Super Septuplet" : [1000220, ["tedious"]],
     "Dream: Torrential Triplet" : [1000221, ["tedious","torr_rain"]],
+    #  Story Events
     "Dream: Random Encounters" : [1000222, []],
     "Dream: All The Pretty Faces" : [1000223, []],
     "Dream: Scary Monsters and Lovely Creeps" : [1000224, ["grind"]],
@@ -380,6 +394,7 @@ dream_list = {
     "Dream: Secret Admirer" : [1000232, []],
     "Dream: Don't Forget to Breathe" : [1000233, []],
     "Dream: Boss Rush in My Boss Rush" : [1000234, []],
+    #  Monster Events
     "Dream: To My Future Self" : [1000235, []],
     "Dream: Tomorrow is Already Loved" : [1000236, []],
     "Dream: Fully Scrambled" : [1000237, []],
@@ -399,6 +414,7 @@ dream_list = {
     "Dream: A++" : [1000251, []],
     "Dream: Void Smart" : [1000252, ["grind"]],
     "Dream: Forbidden Knowledge" : [1000253, ["very_grind"]],
+    #  Monster Gifts
     "Dream: 8 Free Gifts!" : [1000254, ["grind"]],
     "Dream: 16 Free Gifts!" : [1000255, ["very_grind"]],
     "Dream: 32 Free Gifts!" : [1000256, ["very_grind"]],
@@ -412,6 +428,7 @@ dream_list = {
     "Dream: Polished Affect" : [1000264, []],
     "Dream: Extra Crispy" : [1000265, []],
     "Dream: Pour Some Venom on Me" : [1000266, []],
+    #  Monster Trades
     "Dream: 12 Trades!" : [1000267, ["grind"]],
     "Dream: 24 Trades!" : [1000268, ["very_grind"]],
     "Dream: 48 Trades!" : [1000269, ['very_grind']],
@@ -425,6 +442,7 @@ dream_list = {
     "Dream: The Gift of Giving" : [1000277, []],
     "Dream: Just Warming Up" : [1000278, []],
     "Dream: Vibrant Trade" : [1000279, []],
+    #  Monster Bonding
     "Dream: Time's Up Already?" : [1000280, []],
     "Dream: 5 Bonding Time Gifts" : [1000281, []],
     "Dream: 15 Bonding Time Gifts" : [1000282, ["grind"]],
@@ -438,6 +456,8 @@ dream_list = {
     "Dream: Veyeral Games" : [1000290, []],
     "Dream: Can't Resist the Current" : [1000291, ["grind"]],
     "Dream: I'm At Soup!" : [1000292, ["grind"]],
+    # Story Victories
+    #  The Void Victories
     "Dream: Bring an Umbrella" : [1000293, []],
     "Dream: How Do You Love Disorder?" : [1000294, ["defect"]],
     "Dream: Alone Together" : [1000295, ["twin"]],
@@ -447,6 +467,7 @@ dream_list = {
     "Dream: Nothing Times Five" : [1000299, ["grind"]],
     "Dream: The Void: Heavy" : [1000300, ["heavy_rain"]],
     "Dream: The Void: Torrent" : [1000301, ["torr_rain"]],
+    #  Toatria Victories
     "Dream: Fallen Angel" : [1000302, []],
     "Dream: The Infection Must Die!" : [1000303, ["defect"]],
     "Dream: Can't Pull Us Apart" : [1000304, ["twin"]],
@@ -455,6 +476,7 @@ dream_list = {
     "Dream: Negative Three" : [1000307, []],
     "Dream: Totaria: Heavy" : [1000308, ["heavy_rain"]],
     "Dream: Totaria: Torrent" : [1000309, ["torr_rain"]],
+    #  Blue Veyeral Victories
     "Dream: The Perfect Veyeral" : [1000310, []],
     "Dream: My Best Veyeral" : [1000311, ["defect"]],
     "Dream: Group Hug" : [1000312, ["twin"]],
@@ -462,6 +484,8 @@ dream_list = {
     "Dream: Two Perfect" : [1000314, []],
     "Dream: Blue Veyeral: Heavy" : [1000315, ["heavy_rain"]],
     "Dream: Blue Veyeral: Torrent" : [1000316, ["torr_rain"]],
+    # Altered Dreams
+    #  Altered Feats
     "Dream: Unusual Drizzle" : [1000317, ["alter_story"]],
     "Dream: Peculiar Rainstorm" : [1000318, ["alter_story","heavy_rain"]],
     "Dream: Extraordinary Monsoon" : [1000319, ["alter_story","torr_rain"]],
@@ -472,6 +496,7 @@ dream_list = {
     "Dream: Strange Flood" : [1000324, ["alter_story"]],
     "Dream: Abnormal Deluge" : [1000325, ["alter_story","tedious"]],
     "Dream: Unimaginable Tsunami" : [1000326, ["alter_story","torr_rain","very_tedious"]],
+    #  Altered Victories
     "Dream: The Heart of a Zaraden" : [1000327, ["alter_story"]],
     "Dream: Her Heart of Gold" : [1000328, ["alter_story"]],
     "Dream: The Flawed Heart" : [1000329, ["alter_story","defect"]],
@@ -488,6 +513,7 @@ dream_list = {
     "Dream: Reflected in Gold" : [1000340, ["alter_story","alt_twin"]],
     "Dream: The Condemned Heart" : [1000341, ["alter_story","alt_devil"]],
     "Dream: Scorched Gold" : [1000342, ["alter_story","alt_devil"]],
+    #  Altered Medals
     "Dream: 3 Altered Silvers" : [1000343, ["alter_story"]], #For the following 6, tag won't be enough, to make the logic elegant, we should make stuff depending on the number of difficulties unlocked with the number of characters
     "Dream: 12 Altered Silvers" : [1000344, ["alter_story"]],
     "Dream: 24 Altered Silvers" : [1000345, ["alter_story"]],
@@ -502,6 +528,8 @@ dream_list = {
     "Dream: 5 Altered Bloodstones" : [1000354, ["alter_story"]],
     "Dream: 20 Altered Bloodstones" : [1000355, ["alter_story","grind"]],
     "Dream: 50 Altered Bloodstones" : [1000356, ["alter_story","very_grind"]],
+    # Quickplay Dreams
+    #  Quickplay Feats
     "Dream: Love Them All Over Again" : [1000357, ["quickplay"]],
     "Dream: Love Is Overpowered!" : [1000358, ["quickplay"]],
     "Dream: Giant Lover" : [1000359, ["quickplay"]],
@@ -516,6 +544,7 @@ dream_list = {
     "Dream: Lovely Level 40" : [1000368, ["quickplay","very_grind"]],
     "Dream: Lovely Level 45" : [1000369, ["quickplay","very_grind"]],
     "Dream: Lovely Level 50" : [1000370, ["quickplay","very_grind"]],
+    #  Quickplay Medals
     "Dream: A Radiant Medal!" : [1000371, ["quickplay"]],
     "Dream: Glowing Radiance" : [1000372, ["quickplay"]],
     "Dream: Burning Radiance" : [1000373, ["quickplay"]],
@@ -538,6 +567,7 @@ dream_list = {
     "Dream: 160 Radiant Medals!" : [1000390, ["quickplay","very_grind"]],
     "Dream: 250 Radiant Medals!" : [1000391, ["quickplay","very_grind"]],
     "Dream: 360 Radiant Medals!" : [1000392, ["quickplay","very_grind"]],
+    #  Ultra Feats
     "Dream: Colossus Lover" : [1000393, ["ult_quick"]],
     "Dream: Leviathan Lover" : [1000394, ["ult_quick","tedious"]],
     "Dream: Ultimate Goddess Lover" : [1000395, ["ult_quick","tedious"]],
@@ -546,6 +576,7 @@ dream_list = {
     "Dream: Ultra Level 30" : [1000398, ["ult_quick","grind","tedious"]],
     "Dream: Ultra Level 40" : [1000399, ["ult_quick","very_grind","tedious"]],
     "Dream: Ultra Level 50" : [1000400, ["ult_quick","very_grind","very_tedious"]],
+    #  Ultra Medals
     "Dream: Ultra Radiance" : [1000401, ["ult_quick"]],
     "Dream: 30 Ultra Radiant Medals" : [1000402, ["ult_quick","grind"]],
     "Dream: 80 Ultra Radiant Medals" : [1000403, ["ult_quick","grind","tedious"]],
@@ -556,6 +587,8 @@ dream_list = {
     "Dream: 25 Sublime Medals!" : [1000408, ["ult_quick","grind","tedious"]],
     "Dream: 50 Sublime Medals!" : [1000409, ["ult_quick","grind","very_tedious"]],
     "Dream: 100 Sublime Medals!" : [1000410, ["ult_quick","very_grind","very_tedious"]],
+    # Tower Dreams
+    #  Tower Feats
     "Dream: Burdens and All" : [1000411, ["towers"]],
     "Dream: Level 4 Pillar" : [1000412, ["towers"]],
     "Dream: Level 8 Pylon" : [1000413, ["towers"]],
@@ -569,6 +602,7 @@ dream_list = {
     "Dream: Looming Loneliness" : [1000421, ["towers"]],
     "Dream: Citadel of Spiders" : [1000422, ["towers","tedious"]],
     "Dream: Dream Den" : [1000423, ["towers"]],
+    #  Tower Events
     "Dream: We Are Programmed to Receive" : [1000424, ["towers"]],
     "Dream: One Zaraden's Trash" : [1000425, ["towers"]],
     "Dream: The Emptiness Machine" : [1000426, ["towers"]],
@@ -582,6 +616,7 @@ dream_list = {
     "Dream: Calming Anxiety" : [1000434, ["towers"]],
     "Dream: Confident Insecurity" : [1000435, ["towers"]],
     "Dream: Belonging With Loneliness" : [1000436, ["towers"]],
+    #  Tower Victories
     "Dream: Build Tall, Build Higher" : [1000437, ["towers"]],
     "Dream: Build Far, Build Wider" : [1000438, ["towers"]],
     "Dream: Build, Build, Build, Build..." : [1000439, ["towers"]],
@@ -607,6 +642,7 @@ dream_list = {
     "Dream: Fly Along With Me" : [1000459, ["towers","alt_twin"]],
     "Dream: Demonic Tower Climber" : [1000460, ["towers","alt_devil"]],
     "Dream: Run and Tell All of the Angels" : [1000461, ["towers","alt_devil"]],
+    #  Tower Medals
     "Dream: Top of Tiny Tower" : [1000462, ["towers"]],
     "Dream: Top of Taller Tower" : [1000463, ["towers"]],
     "Dream: Top of Torrential Tower" : [1000464, ["towers"]],
@@ -622,6 +658,8 @@ dream_list = {
     "Dream: A Radiant Tower" : [1000474, ["towers"]],
     "Dream: 6 Radiant Towers" : [1000475, ["towers"]],
     "Dream: 18 Radiant Towers" : [1000476, ["towers","grind"]],
+    # Endless Nightmares
+    #  Endless Goals
     "Dream: One out of Infinity" : [1000477, ["endl_nightmare"]],
     "Dream: A Nightmare Cycle" : [1000478, ["endl_nightmare"]],
     "Dream: Two Nightmare Cycles" : [1000479, ["endl_nightmare"]],
@@ -641,6 +679,7 @@ dream_list = {
     "Dream: Level 10 Fright" : [1000493, ["endl_nightmare"]],
     "Dream: Level 15 Terror" : [1000494, ["endl_nightmare"]],
     "Dream: Level 20 Abomination" : [1000495, ["endl_nightmare","tedious"]], #does it deserve tedious?
+    #  Endless Feats
     "Dream: Infinite Dreams" : [1000496, ["endl_nightmare","grind"]],
     "Dream: Karmic Hoarding" : [1000497, ["endl_stress"]],
     "Dream: Karmic Bounty" : [1000498, ["endl_nightmare","grind"]],
@@ -658,6 +697,7 @@ dream_list = {
     "Dream: Should This Be Fight or Flight?" : [1000510, ["endl_terror"]],
     "Dream: Terrorific Twenty" : [1000511, ["endl_terror"]],
     "Dream: Scary Septuplet" : [1000512, ["endl_terror","tedious"]],
+    #  Endless Medals
     "Dream: Overall Bronze Nightmare" : [1000513, ["endl_nightmare"]],
     "Dream: Overall Silver Nightmare" : [1000514, ["endl_nightmare"]],
     "Dream: Overall Golden Nightmare" : [1000515, ["endl_nightmare"]],
@@ -673,6 +713,8 @@ dream_list = {
     "Dream: 5 Radiant Nightmares!" : [1000525, ["endl_nightmare"]],
     "Dream: 20 Radiant Nightmares!" : [1000526, ["endl_nightmare","grind"]],
     "Dream: 45 Radiant Nightmares!" : [1000527, ["endl_nightmare","very_grind"]],
+    # Monster Dreams
+    #  Shamble Dreams
     "Dream: Icky Scrambles" : [1000528, ["grind"]],
     "Dream: Stay Over There!" : [1000529, []],
     "Dream: Finely Scrambled" : [1000530, ["grind"]],
@@ -695,6 +737,7 @@ dream_list = {
     "Dream: Give Me Fuel, Give Me Fire" : [1000547, []],
     "Dream: Potential Energy" : [1000548, ["tedious"]],
     "Dream: Path of Least Resistance" : [1000549, []],
+    #  Guardian Dreams
     "Dream: Rending Rendy" : [1000550, ["grind"]],
     "Dream: Nuclear Scrambled Eggs" : [1000551, []],
     "Dream: Don't Let It Go" : [1000552, ["tedious"]],
@@ -717,6 +760,7 @@ dream_list = {
     "Dream: Falling From Her Grace Again" : [1000569, []],
     "Dream: Shanx N' Roses" : [1000570, []],
     "Dream: Scream Aim Fire!" : [1000571, []],
+    #  Eyeric Glyph Dreams
     "Dream: In a Flash" : [1000572, []], #would say quickplay's needed, otherwise very_tedious in story
     "Dream: Photo Finish" : [1000573, []],
     "Dream: Deforestation" : [1000574, ["grind"]],
@@ -739,6 +783,7 @@ dream_list = {
     "Dream: Ride the Lightning" : [1000591, []],
     "Dream: The Most Loneliest Day" : [1000592, []],
     "Dream: Raining Blood" : [1000593, ["grind"]],
+    #  Zaramech Dreams
     "Dream: Absolute Unit" : [1000594, []],
     "Dream: Lulu's Lightning Love" : [1000595, []],
     "Dream: Dangling Pointer" : [1000596, ["tedious"]],
@@ -761,6 +806,7 @@ dream_list = {
     "Dream: Don't Make Me Come Back There!" : [1000613, []],
     "Dream: OK, 3, 2, 1, Blast Off!" : [1000614, ["tedious"]],
     "Dream: I'll Be the Roundabout" : [1000615, ["tedious"]],
+    #  Glass Flora Dreams
     "Dream: Schism of Petals" : [1000616, ["tedious"]],
     "Dream: Parabola of Vines" : [1000617, ["tedious"]],
     "Dream: Fragile Flower" : [1000618, ["tedious"]],
@@ -783,6 +829,7 @@ dream_list = {
     "Dream: Stage Fright" : [1000635, []],
     "Dream: Kiwi Harvest" : [1000636, ["grind"]],
     "Dream: Favorite Flower" : [1000637, []],
+    #  Veyeral Dreams
     "Dream: Division by Zero" : [1000638, []],
     "Dream: Half Empty" : [1000639, []],
     "Dream: Burn It Down!" : [1000640, []],
@@ -811,6 +858,7 @@ dream_list = {
     "Dream: Like It Was Nothing" : [1000663, []],
     "Dream: Blue's Perfect Party" : [1000664, []],
     "Dream: Perfected Perfection" : [1000665, []],
+    #  Special Monster Dreams
     "Dream: Are You Even Trying?" : [1000666, ["tedious"]], #needs tanky build
     "Dream: Karmic Deficiency Disorder" : [1000667, ["grind"]],
     "Dream: Here Comes the Sun" : [1000668, []],
@@ -829,6 +877,7 @@ dream_list = {
     "Dream: Panic Disorder" : [1000681, ["grind"]],
     "Dream: Creeping Death" : [1000682, []],
     "Dream: Breathing Disorder" : [1000683, ["grind"]],
+    #  Shiny Dreams
     "Dream: Knot Knott Not Naught" : [1000684, []],
     "Dream: Slipknott" : [1000685, []],
     "Dream: Kinetic Energy" : [1000686, []],
@@ -847,6 +896,7 @@ dream_list = {
     "Dream: Golden Experience" : [1000699, []],
     "Dream: The Enigma at Iiry Forest" : [1000700, []],
     "Dream: Field of Absolute Terror" : [1000701, []],
+    #  Nova Dreams
     "Dream: Emerald Splash!" : [1000702, []],
     "Dream: Mining Shame" : [1000703, ["grind"]],
     "Dream: It's Also a Gun" : [1000704, ["grind"]],
@@ -861,6 +911,7 @@ dream_list = {
     "Dream: Mining Nothing" : [1000713, []],
     "Dream: Taste the Rainbow" : [1000714, ["tedious"]],
     "Dream: Never Miss a Beat" : [1000715, []],
+    #  Fallen Heart Dreams
     "Dream: Game Over" : [1000716, ["tedious"]], #needs backward shots
     "Dream: Total Eclipse of the Heart" : [1000717, []],
     "Dream: I Won't See You Tonight 2" : [1000718, []],
@@ -875,6 +926,7 @@ dream_list = {
     "Dream: Owner of a Lonely Heart" : [1000727, []],
     "Dream: You're a Heartbreaker, Dream Maker" : [1000728, ["tedious"]],
     "Dream: Save Me" : [1000729, []],
+    #  Newborn Dreams
     "Dream: Polyp Popper" : [1000730, ["grind"]],
     "Dream: Shamra's Birthday Hug" : [1000731, []],
     "Dream: True Guardian Soul EX" : [1000732, []], #overlevel
