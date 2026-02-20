@@ -847,6 +847,20 @@ dream_list = {
     "Dream: Golden Experience" : [1000699, []],
     "Dream: The Enigma at Iiry Forest" : [1000700, []],
     "Dream: Field of Absolute Terror" : [1000701, []],
+    "Dream: Emerald Splash!" : [1000702, []],
+    "Dream: Mining Shame" : [1000703, ["grind"]],
+    "Dream: It's Also a Gun" : [1000704, ["grind"]],
+    "Dream: Mining Her Fury" : [1000705, []],
+    "Dream: Golden Experience Requiem" : [1000706, []], #overlevel
+    "Dream: Mining Denied" : [1000707, []],
+    "Dream: Here Comes a Thought" : [1000708, []],
+    "Dream: Mining Her Patience" : [1000709, ["grind"]],
+    "Dream: Citrus Lump" : [1000710, ["tedious"]],
+    "Dream: Mining Fragments" : [1000711, ["grind"]],
+    "Dream: No Matter What" : [1000712, ["tedious"]], #tanky
+    "Dream: Mining Nothing" : [1000713, []],
+    "Dream: Taste the Rainbow" : [1000714, ["tedious"]],
+    "Dream: Never Miss a Beat" : [1000715, []],
 }
 
 story_medals = { #will be implemented in major update 2
