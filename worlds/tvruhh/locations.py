@@ -861,6 +861,20 @@ dream_list = {
     "Dream: Mining Nothing" : [1000713, []],
     "Dream: Taste the Rainbow" : [1000714, ["tedious"]],
     "Dream: Never Miss a Beat" : [1000715, []],
+    "Dream: Game Over" : [1000716, ["tedious"]], #needs backward shots
+    "Dream: Total Eclipse of the Heart" : [1000717, []],
+    "Dream: I Won't See You Tonight 2" : [1000718, []],
+    "Dream: Hearts Burst Into Fire" : [1000719, []],
+    "Dream: Let It Burn Under My Skin" : [1000720, []],
+    "Dream: Tripping on a Hole in a Paper Heart" : [1000721, ["grind"]],
+    "Dream: Restless Heart Syndrome" : [1000722, []],
+    "Dream: Leave How I Arrived, So Alive" : [1000723, []],
+    "Dream: From Way up Here, It's So Serene" : [1000724, []],
+    "Dream: Heart of Glass" : [1000725, ["very_tedious"]],
+    "Dream: I Won't See You Tonight 1" : [1000726, []],
+    "Dream: Owner of a Lonely Heart" : [1000727, []],
+    "Dream: You're a Heartbreaker, Dream Maker" : [1000728, ["tedious"]],
+    "Dream: Save Me" : [1000729, []],
 }
 
 story_medals = { #will be implemented in major update 2
