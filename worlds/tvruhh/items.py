@@ -185,7 +185,7 @@ def get_upgrade_items(world: TVRUHHWorld) -> list[Item]:
 # 103 = quick gifts (status: WIP)
 # 104 = bounty gifts (status: finished for init release)
 # 105 = blessing gifts (status: finished for init release)
-# 106 = burden gifts (status: WIP)
+# 106 = burden gifts (status: finished for init release)
 # 107 = upgrade gifts (status: finished for init release)
 # 108 = dreamscapes (status: finished for init release)
 # 109 = events (status: finished for init release)
@@ -607,7 +607,18 @@ blessing_gift_list = {
 }
 
 burden_gift_list = {
-
+    "Forgetful": [1060000, ItemClassification.progression],
+    "Defective": [1060001, ItemClassification.progression],
+    "Irreparable": [1060002, ItemClassification.progression],
+    "Personal Space": [1060003, ItemClassification.progression],
+    "Dissociation": [1060004, ItemClassification.progression],
+    "Clipped": [1060005, ItemClassification.progression],
+    "Cycle of Pain": [1060006, ItemClassification.progression],
+    "Glowing Scar": [1060007, ItemClassification.progression],
+    "Frostbite Scar": [1060008, ItemClassification.progression],
+    "Singed Scar": [1060009, ItemClassification.progression],
+    "Overload Scar": [1060010, ItemClassification.progression],
+    "Poison Scar": [1060011, ItemClassification.progression],
 }
 
 upgrade_gift_list = {
