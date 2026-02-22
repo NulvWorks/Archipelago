@@ -188,7 +188,7 @@ def get_upgrade_items(world: TVRUHHWorld) -> list[Item]:
 # 106 = burden gifts (status: WIP)
 # 107 = upgrade gifts (status: finished for init release)
 # 108 = dreamscapes (status: finished for init release)
-# 109 = events (status: WIP)
+# 109 = events (status: finished for init release)
 # 110 = scenes (status: WIP)
 # 111 = music (status: finished for init release)
 # 112 = useful items (status: WIP, wait until after init release)
@@ -607,7 +607,97 @@ dreamscape_list = {
 }
 
 event_list = {
-
+    # Common Events
+    "A Key to Love": [1090000, ItemClassification.progression],
+    "Radiant Garden": [1090001, ItemClassification.progression],
+    "Lulu's Gift": [1090002, ItemClassification.progression],
+    "Heliocentric Model": [1090003, ItemClassification.progression],
+    "Scrambla's Gift": [1090004, ItemClassification.progression],
+    "Boiler's Gift": [1090005, ItemClassification.progression],
+    "Sentinel's Quiz": [1090006, ItemClassification.progression],
+    #  Token Shop Events
+    "Blot's Art Gallery": [1090007, ItemClassification.progression],
+    "Vitrea's Observatory": [1090008, ItemClassification.progression],
+    # Stage Events
+    #  Common Stage Events
+    "Bounty of Motes": [1090009, ItemClassification.progression],
+    "Wrathful Monsters": [1090010, ItemClassification.progression],
+    "Repelling Monsters": [1090011, ItemClassification.progression],
+    "Inverted Dreams": [1090012, ItemClassification.progression],
+    "I See Everyone": [1090013, ItemClassification.progression],
+    #  Panic Stage Events
+    "Don't Panic!": [1090014, ItemClassification.progression],
+    "Everyone Panic!": [1090015, ItemClassification.progression],
+    #  Elemental Stage Events
+    "Everything is Radiant": [1090016, ItemClassification.progression],
+    "Everything is Darkness": [1090017, ItemClassification.progression],
+    "Everything is Burning": [1090018, ItemClassification.progression],
+    "Everything is Electric": [1090019, ItemClassification.progression],
+    "Everything is Poisoned": [1090020, ItemClassification.progression],
+    #  Family Stage Events
+    "Shambled Art Supplies": [1090021, ItemClassification.progression],
+    "Feast for The Guardians": [1090022, ItemClassification.progression],
+    "Glyph Stone Ocean": [1090023, ItemClassification.progression],
+    "Zaramech Repairs": [1090024, ItemClassification.progression],
+    "Cosmic Flower Field": [1090025, ItemClassification.progression],
+    "They Came From The Void": [1090026, ItemClassification.progression],
+    # Free Gift Events
+    "No One's Gift": [1090027, ItemClassification.progression],
+    "Amalga's Hospitality": [1090028, ItemClassification.progression],
+    "Wrath of Roundsaw": [1090029, ItemClassification.progression],
+    "Photo Shy Photoxai": [1090030, ItemClassification.progression],
+    "Ombroah's Umbrella": [1090031, ItemClassification.progression],
+    "Flash Before My Eyes": [1090032, ItemClassification.progression],
+    "Null Scrap Pile": [1090033, ItemClassification.progression],
+    "Flipping and Flapping": [1090034, ItemClassification.progression],
+    "Smiles for Pearl": [1090035, ItemClassification.progression],
+    "Time for Burning": [1090036, ItemClassification.progression],
+    "Time for Detox": [1090037, ItemClassification.progression],
+    # Trading Events
+    "Calorie's Desire": [1090038, ItemClassification.progression],
+    "Lila Wants a Snack": [1090039, ItemClassification.progression],
+    "Blood Drive": [1090040, ItemClassification.progression],
+    "Scent of Chemory": [1090041, ItemClassification.progression],
+    "Walk With Us In Hell": [1090042, ItemClassification.progression],
+    "Monovai's Revenge": [1090043, ItemClassification.progression],
+    "Prisma's Duplicator": [1090044, ItemClassification.progression],
+    "Glacia's Secret": [1090045, ItemClassification.progression],
+    "Frozen Veyeral Warm Up": [1090046, ItemClassification.progression],
+    "Vibrant Art Exchange": [1090047, ItemClassification.progression],
+    "Blizzard Castle Décor": [1090048, ItemClassification.progression],
+    # Bonding Time Events
+    "Voladrome's Vault Venture": [1090049, ItemClassification.progression],
+    "Stardust Crusade": [1090050, ItemClassification.progression],
+    "Game of Thorns": [1090051, ItemClassification.progression],
+    "Lavalin's Fault": [1090052, ItemClassification.progression],
+    "A Walk Through the Snow": [1090053, ItemClassification.progression],
+    "I Can Fix Her": [1090054, ItemClassification.progression],
+    "Embracing Dot": [1090055, ItemClassification.progression],
+    "Kiwi's Playhouse": [1090056, ItemClassification.progression],
+    "Veyeral Games": [1090057, ItemClassification.progression],
+    "Voltage Min-Max": [1090058, ItemClassification.progression],
+    "Cooking With Magma": [1090059, ItemClassification.progression],
+    # Treasure Events (Shiny battles)
+    "Knot for Naught": [1090060, ItemClassification.progression],
+    "Work for Joule": [1090061, ItemClassification.progression],
+    "Rendy's Buried Treasure": [1090062, ItemClassification.progression],
+    "The Royal Treasure": [1090063, ItemClassification.progression],
+    "Any Way You Want It": [1090064, ItemClassification.progression],
+    "Async Desync": [1090065, ItemClassification.progression],
+    "Murder Dance": [1090066, ItemClassification.progression],
+    "Veyerals Dream Again": [1090067, ItemClassification.progression],
+    "Lucky Break": [1090068, ItemClassification.progression],
+    # Special Events
+    "Alter Your Fate": [1090069, ItemClassification.progression],
+    # Tower Events
+    "Security Breach!": [1090070, ItemClassification.progression],
+    "The Junk Vault": [1090071, ItemClassification.progression],
+    "Made of Emerald": [1090072, ItemClassification.progression],
+    "Made of Ruby": [1090073, ItemClassification.progression],
+    "Made of Topaz": [1090074, ItemClassification.progression],
+    "Made of Sapphire": [1090075, ItemClassification.progression],
+    "Made of Citrine": [1090076, ItemClassification.progression],
+    "Made of Amethyst": [1090077, ItemClassification.progression],
 }
 
 scenes_list = { #will be implemented in major update 1
