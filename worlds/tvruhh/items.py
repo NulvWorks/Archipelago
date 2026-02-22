@@ -183,7 +183,7 @@ def get_upgrade_items(world: TVRUHHWorld) -> list[Item]:
 # 101 = power gifts (status: finished for init release)
 # 102 = bonus gifts (status: WIP)
 # 103 = quick gifts (status: WIP)
-# 104 = bounty gifts (status: WIP)
+# 104 = bounty gifts (status: finished for init release)
 # 105 = blessing gifts (status: WIP)
 # 106 = burden gifts (status: WIP)
 # 107 = upgrade gifts (status: finished for init release)
@@ -545,7 +545,43 @@ quick_gift_list = {
 }
 
 bounty_gift_list = {
-
+    # Blessed Bounties
+    "Red Mote": [1040000, ItemClassification.progression],
+    "Yellow Mote": [1040001, ItemClassification.progression],
+    "Orange Mote": [1040002, ItemClassification.progression],
+    "Purple Mote": [1040003, ItemClassification.progression],
+    "Green Ore": [1040004, ItemClassification.progression],
+    "Red Ore": [1040005, ItemClassification.progression],
+    "Yellow Ore": [1040006, ItemClassification.progression],
+    "Blue Ore": [1040007, ItemClassification.progression],
+    "Orange Ore": [1040008, ItemClassification.progression],
+    "Purple Ore": [1040009, ItemClassification.progression],
+    "Prism Flake": [1040010, ItemClassification.progression],
+    "Prism Shard": [1040011, ItemClassification.progression],
+    "Full Prism": [1040012, ItemClassification.progression],
+    "Stardust": [1040013, ItemClassification.progression],
+    # Burdened Bounties
+    "Shamble Sigil": [1040014, ItemClassification.progression],
+    "Glyph Sigil": [1040015, ItemClassification.progression],
+    "Zaramech Sigil": [1040016, ItemClassification.progression],
+    "Veyeral Sigil": [1040017, ItemClassification.progression],
+    "Shameful Ore": [1040018, ItemClassification.progression],
+    "Enraged Ore": [1040019, ItemClassification.progression],
+    "Denial Ore": [1040020, ItemClassification.progression],
+    "Anxious Ore": [1040021, ItemClassification.progression],
+    "Fragile Ore": [1040022, ItemClassification.progression],
+    "Lonely Ore": [1040023, ItemClassification.progression],
+    "Hard Focus": [1040024, ItemClassification.progression],
+    "Cracked Mirror": [1040025, ItemClassification.progression],
+    "Broken Mirror": [1040026, ItemClassification.progression],
+    "Dizzy": [1040027, ItemClassification.progression],
+    "Vertigo": [1040028, ItemClassification.progression],
+    "Pirouette": [1040029, ItemClassification.progression],
+    "Chunk of Wrath": [1040030, ItemClassification.progression],
+    "Orb of Wrath": [1040031, ItemClassification.progression],
+    "Repelling Shard": [1040032, ItemClassification.progression],
+    "Repelling Chunk": [1040033, ItemClassification.progression],
+    "Repelling Orb	Rank 3": [1040034, ItemClassification.progression],
 }
 
 blessing_gift_list = {
