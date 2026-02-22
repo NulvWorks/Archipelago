@@ -184,7 +184,7 @@ def get_upgrade_items(world: TVRUHHWorld) -> list[Item]:
 # 102 = bonus gifts (status: WIP)
 # 103 = quick gifts (status: WIP)
 # 104 = bounty gifts (status: finished for init release)
-# 105 = blessing gifts (status: WIP)
+# 105 = blessing gifts (status: finished for init release)
 # 106 = burden gifts (status: WIP)
 # 107 = upgrade gifts (status: finished for init release)
 # 108 = dreamscapes (status: finished for init release)
@@ -585,7 +585,25 @@ bounty_gift_list = {
 }
 
 blessing_gift_list = {
-
+    "Her Love": [1050000, ItemClassification.progression],
+    "Painted Artist": [1050001, ItemClassification.progression],
+    "Flawless": [1050002, ItemClassification.progression],
+    "Perfect Gift": [1050003, ItemClassification.progression],
+    "Siblings": [1050004, ItemClassification.progression],
+    "Sunshine": [1050005, ItemClassification.progression],
+    "Tenacious": [1050006, ItemClassification.progression],
+    "Demonic Fury": [1050007, ItemClassification.progression],
+    "Tattoo": [1050008, ItemClassification.progression],
+    "Secret": [1050009, ItemClassification.progression],
+    "Love Glyph": [1050010, ItemClassification.progression],
+    "Love Love": [1050011, ItemClassification.progression],
+    "Beautiful": [1050012, ItemClassification.progression],
+    "Divine": [1050013, ItemClassification.progression],
+    "Sound Glyph": [1050014, ItemClassification.progression],
+    "Resonance": [1050015, ItemClassification.progression],
+    "Power Glyph": [1050016, ItemClassification.progression],
+    "Explosive": [1050017, ItemClassification.progression],
+    "Wonderful": [1050018, ItemClassification.progression],
 }
 
 burden_gift_list = {
