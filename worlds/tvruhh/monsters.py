@@ -1,5 +1,7 @@
 from typing import List
 
+medals: List[str] = ["Copper", "Bronze", "Silver", "Gold", "Radiant"]
+
 class Monster:
     """
     Data class for monsters
@@ -15,6 +17,19 @@ class Monster:
 
     def ultra(self) -> int:
         return 42 if self.maxLevel >= 8 else self.maxLevel*2
+
+    def levelRange(self) -> range:
+        return range(self.minLevel,self.maxLevel+1)
+
+    def allLevelLocations(self, medal) -> List[str]:
+        """Creates all locations in the form 'QP: Lv <level> <monsterName> <medalType> medal'"""
+        res: List[str] = []
+        for l in self.levelRange():
+            res.append(f"QP – Lv {l} {self.name} – {medal} medal")
+        return res
+
+    def singleLevelLocation(self, medal) -> str:
+        return f"QP – {self.name} – {medal} medal"  
 
     def sayHi(self):
         print(self.name + " " +  str(self.minLevel) + "-" + str(self.maxLevel) + "-" + str(self.ultra()))
@@ -144,5 +159,10 @@ monsterList: List[Monster] = [
     Monster("Limbo",6,12)
 ]
 
-for monster in monsterList:
-    monster.sayHi()
+s = "Radiant"
+
+ll = [[m.singleLevelLocation(s)] + m.allLevelLocations(s) for m in monsterList]
+fullList = [a for b in ll for a in b]
+
+for i, x in enumerate(fullList):
+    print(f"\"{x}\": [106{i:04}, [\"quickplay\"]],")
