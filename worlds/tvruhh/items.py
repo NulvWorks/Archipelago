@@ -288,8 +288,8 @@ monster_list = {
     "Chroma": [1000077, ItemClassification.progression],
     "Duality": [1000078, ItemClassification.progression],
     "Trinity": [1000079, ItemClassification.progression],
-    "Avoidant Stella": [1000085, ItemClassification.progression], #added in Update #108
-    "Rage Celestia": [1000086, ItemClassification.progression], #added in Update #108
+    #"Avoidant Stella": [1000085, ItemClassification.progression], #added in Update #108, will be implemented later due to uncertainty on how easy it is to update the game mod.
+    #"Rage Celestia": [1000086, ItemClassification.progression], #added in Update #108, will be implemented later due to uncertainty on how easy it is to update the game mod.
     "Ember Polyps": [1000080, ItemClassification.progression],
     "Volt Polyps": [1000081, ItemClassification.progression],
     "Tox Polyps": [1000082, ItemClassification.progression],
@@ -610,7 +610,7 @@ event_list = {
 
 }
 
-scenes_list = {
+scenes_list = { #will be implemented in major update 1
 
 }
 
@@ -675,11 +675,11 @@ music_list = {
     "Me, Myself, and Eye": [1110057, ItemClassification.skip_balancing]
 }
 
-useful_item_list = {
-
+useful_item_list = { #will be implemented in major update 1
+    
 }
 
-filler_item_list = {
+filler_item_list = { #will be further implemented in major update 1
     "Extra Green Tetrids": [1130000, ItemClassification.filler],
     "Extra Red Tetrids": [1130001, ItemClassification.filler],
     "Extra Yellow Tetrids": [1130002, ItemClassification.filler],
@@ -691,7 +691,7 @@ filler_item_list = {
 
 #"Rose Medal": [107006, ItemClassification.progression], # Num enemies * Num characters, at least 650
 #"Crimson Medal": [107007, ItemClassification.progression] #Num thorned enemis * Num characters
-qp_upgrade_list = {
+qp_upgrade_list = { #will be implemented in major update 2
     "Quickplay – Battle Level": [114000, ItemClassification.progression], #10 levels
     "Quickplay – Ultra Level": [114001, ItemClassification.progression], #30 levels
     "Quickplay – Gift Rank": [114002, ItemClassification.progression], #3 levels
@@ -702,14 +702,14 @@ qp_upgrade_list = {
     "Quickplay – Power Limit": [114007, ItemClassification.progression], #5 levels
 }
 
-altstory_upgrade_list = {
+altstory_upgrade_list = { #will be implemented in major update 2
     "Alter Your Fate – Max Power": [115000, ItemClassification.progression], #20 levels
     "Alter Your Fate – Quick Gifts": [115001, ItemClassification.useful], #5 levels
     "Alter Your Fate – Bonus Gifts": [115002, ItemClassification.useful], #7 levels
     "Alter Your Fate – Tetrid Gifts": [115003, ItemClassification.useful], #3 levels
 }
 
-endless_upgrade_list = {
+endless_upgrade_list = { #will be implemented in major update 2
     "Solara's Gift Shop – Power Gifts": [116000, ItemClassification.progression], #7 levels
     "Solara's Gift Shop – Duplicate Stock": [116001, ItemClassification.useful], #2 levels
     "Solara's Gift Shop – Duplicate Limit": [116002, ItemClassification.useful], #4 levels
@@ -720,7 +720,7 @@ endless_upgrade_list = {
     "Solara's Gift Shop – Remove Gifts": [116007, ItemClassification.useful], #1 level
 }
 
-event_upgrade_list = {
+event_upgrade_list = { #will be implemented in major update 2
     "Radiant Garden – Radiate Rate": [117000, ItemClassification.useful], #10 levels
     "Radiant Garden – Extract Rate": [117001, ItemClassification.useful], #10 levels
     "Radiant Garden – Garden Gifts": [117002, ItemClassification.useful], #4 levels
@@ -769,6 +769,6 @@ other_items_list = {
     "Story Mode: Blessings and Burdens": [1180025, ItemClassification.progression]
 }
 
-default_items = {
+default_items = { #will be implemented in major update 3
 
 }
