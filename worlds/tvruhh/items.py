@@ -183,12 +183,12 @@ def get_upgrade_items(world: TVRUHHWorld) -> list[Item]:
 # 101 = power gifts (status: finished for init release)
 # 102 = bonus gifts (status: WIP)
 # 103 = quick gifts (status: WIP)
-# 104 = bounty gifts (status: WIP)
-# 105 = blessing gifts (status: WIP)
-# 106 = burden gifts (status: WIP)
+# 104 = bounty gifts (status: finished for init release)
+# 105 = blessing gifts (status: finished for init release)
+# 106 = burden gifts (status: finished for init release)
 # 107 = upgrade gifts (status: finished for init release)
 # 108 = dreamscapes (status: finished for init release)
-# 109 = events (status: WIP)
+# 109 = events (status: finished for init release)
 # 110 = scenes (status: WIP)
 # 111 = music (status: finished for init release)
 # 112 = useful items (status: WIP, wait until after init release)
@@ -288,8 +288,8 @@ monster_list = {
     "Chroma": [1000077, ItemClassification.progression],
     "Duality": [1000078, ItemClassification.progression],
     "Trinity": [1000079, ItemClassification.progression],
-    "Avoidant Stella": [1000085, ItemClassification.progression], #added in Update #108
-    "Rage Celestia": [1000086, ItemClassification.progression], #added in Update #108
+    #"Avoidant Stella": [1000085, ItemClassification.progression], #added in Update #108, will be implemented later due to uncertainty on how easy it is to update the game mod.
+    #"Rage Celestia": [1000086, ItemClassification.progression], #added in Update #108, will be implemented later due to uncertainty on how easy it is to update the game mod.
     "Ember Polyps": [1000080, ItemClassification.progression],
     "Volt Polyps": [1000081, ItemClassification.progression],
     "Tox Polyps": [1000082, ItemClassification.progression],
@@ -545,15 +545,80 @@ quick_gift_list = {
 }
 
 bounty_gift_list = {
-
+    # Blessed Bounties
+    "Red Mote": [1040000, ItemClassification.progression],
+    "Yellow Mote": [1040001, ItemClassification.progression],
+    "Orange Mote": [1040002, ItemClassification.progression],
+    "Purple Mote": [1040003, ItemClassification.progression],
+    "Green Ore": [1040004, ItemClassification.progression],
+    "Red Ore": [1040005, ItemClassification.progression],
+    "Yellow Ore": [1040006, ItemClassification.progression],
+    "Blue Ore": [1040007, ItemClassification.progression],
+    "Orange Ore": [1040008, ItemClassification.progression],
+    "Purple Ore": [1040009, ItemClassification.progression],
+    "Prism Flake": [1040010, ItemClassification.progression],
+    "Prism Shard": [1040011, ItemClassification.progression],
+    "Full Prism": [1040012, ItemClassification.progression],
+    "Stardust": [1040013, ItemClassification.progression],
+    # Burdened Bounties
+    "Shamble Sigil": [1040014, ItemClassification.progression],
+    "Glyph Sigil": [1040015, ItemClassification.progression],
+    "Zaramech Sigil": [1040016, ItemClassification.progression],
+    "Veyeral Sigil": [1040017, ItemClassification.progression],
+    "Shameful Ore": [1040018, ItemClassification.progression],
+    "Enraged Ore": [1040019, ItemClassification.progression],
+    "Denial Ore": [1040020, ItemClassification.progression],
+    "Anxious Ore": [1040021, ItemClassification.progression],
+    "Fragile Ore": [1040022, ItemClassification.progression],
+    "Lonely Ore": [1040023, ItemClassification.progression],
+    "Hard Focus": [1040024, ItemClassification.progression],
+    "Cracked Mirror": [1040025, ItemClassification.progression],
+    "Broken Mirror": [1040026, ItemClassification.progression],
+    "Dizzy": [1040027, ItemClassification.progression],
+    "Vertigo": [1040028, ItemClassification.progression],
+    "Pirouette": [1040029, ItemClassification.progression],
+    "Chunk of Wrath": [1040030, ItemClassification.progression],
+    "Orb of Wrath": [1040031, ItemClassification.progression],
+    "Repelling Shard": [1040032, ItemClassification.progression],
+    "Repelling Chunk": [1040033, ItemClassification.progression],
+    "Repelling Orb	Rank 3": [1040034, ItemClassification.progression],
 }
 
 blessing_gift_list = {
-
+    "Her Love": [1050000, ItemClassification.progression],
+    "Painted Artist": [1050001, ItemClassification.progression],
+    "Flawless": [1050002, ItemClassification.progression],
+    "Perfect Gift": [1050003, ItemClassification.progression],
+    "Siblings": [1050004, ItemClassification.progression],
+    "Sunshine": [1050005, ItemClassification.progression],
+    "Tenacious": [1050006, ItemClassification.progression],
+    "Demonic Fury": [1050007, ItemClassification.progression],
+    "Tattoo": [1050008, ItemClassification.progression],
+    "Secret": [1050009, ItemClassification.progression],
+    "Love Glyph": [1050010, ItemClassification.progression],
+    "Love Love": [1050011, ItemClassification.progression],
+    "Beautiful": [1050012, ItemClassification.progression],
+    "Divine": [1050013, ItemClassification.progression],
+    "Sound Glyph": [1050014, ItemClassification.progression],
+    "Resonance": [1050015, ItemClassification.progression],
+    "Power Glyph": [1050016, ItemClassification.progression],
+    "Explosive": [1050017, ItemClassification.progression],
+    "Wonderful": [1050018, ItemClassification.progression],
 }
 
 burden_gift_list = {
-
+    "Forgetful": [1060000, ItemClassification.progression],
+    "Defective": [1060001, ItemClassification.progression],
+    "Irreparable": [1060002, ItemClassification.progression],
+    "Personal Space": [1060003, ItemClassification.progression],
+    "Dissociation": [1060004, ItemClassification.progression],
+    "Clipped": [1060005, ItemClassification.progression],
+    "Cycle of Pain": [1060006, ItemClassification.progression],
+    "Glowing Scar": [1060007, ItemClassification.progression],
+    "Frostbite Scar": [1060008, ItemClassification.progression],
+    "Singed Scar": [1060009, ItemClassification.progression],
+    "Overload Scar": [1060010, ItemClassification.progression],
+    "Poison Scar": [1060011, ItemClassification.progression],
 }
 
 upgrade_gift_list = {
@@ -607,10 +672,100 @@ dreamscape_list = {
 }
 
 event_list = {
-
+    # Common Events
+    "A Key to Love": [1090000, ItemClassification.progression],
+    "Radiant Garden": [1090001, ItemClassification.progression],
+    "Lulu's Gift": [1090002, ItemClassification.progression],
+    "Heliocentric Model": [1090003, ItemClassification.progression],
+    "Scrambla's Gift": [1090004, ItemClassification.progression],
+    "Boiler's Gift": [1090005, ItemClassification.progression],
+    "Sentinel's Quiz": [1090006, ItemClassification.progression],
+    #  Token Shop Events
+    "Blot's Art Gallery": [1090007, ItemClassification.progression],
+    "Vitrea's Observatory": [1090008, ItemClassification.progression],
+    # Stage Events
+    #  Common Stage Events
+    "Bounty of Motes": [1090009, ItemClassification.progression],
+    "Wrathful Monsters": [1090010, ItemClassification.progression],
+    "Repelling Monsters": [1090011, ItemClassification.progression],
+    "Inverted Dreams": [1090012, ItemClassification.progression],
+    "I See Everyone": [1090013, ItemClassification.progression],
+    #  Panic Stage Events
+    "Don't Panic!": [1090014, ItemClassification.progression],
+    "Everyone Panic!": [1090015, ItemClassification.progression],
+    #  Elemental Stage Events
+    "Everything is Radiant": [1090016, ItemClassification.progression],
+    "Everything is Darkness": [1090017, ItemClassification.progression],
+    "Everything is Burning": [1090018, ItemClassification.progression],
+    "Everything is Electric": [1090019, ItemClassification.progression],
+    "Everything is Poisoned": [1090020, ItemClassification.progression],
+    #  Family Stage Events
+    "Shambled Art Supplies": [1090021, ItemClassification.progression],
+    "Feast for The Guardians": [1090022, ItemClassification.progression],
+    "Glyph Stone Ocean": [1090023, ItemClassification.progression],
+    "Zaramech Repairs": [1090024, ItemClassification.progression],
+    "Cosmic Flower Field": [1090025, ItemClassification.progression],
+    "They Came From The Void": [1090026, ItemClassification.progression],
+    # Free Gift Events
+    "No One's Gift": [1090027, ItemClassification.progression],
+    "Amalga's Hospitality": [1090028, ItemClassification.progression],
+    "Wrath of Roundsaw": [1090029, ItemClassification.progression],
+    "Photo Shy Photoxai": [1090030, ItemClassification.progression],
+    "Ombroah's Umbrella": [1090031, ItemClassification.progression],
+    "Flash Before My Eyes": [1090032, ItemClassification.progression],
+    "Null Scrap Pile": [1090033, ItemClassification.progression],
+    "Flipping and Flapping": [1090034, ItemClassification.progression],
+    "Smiles for Pearl": [1090035, ItemClassification.progression],
+    "Time for Burning": [1090036, ItemClassification.progression],
+    "Time for Detox": [1090037, ItemClassification.progression],
+    # Trading Events
+    "Calorie's Desire": [1090038, ItemClassification.progression],
+    "Lila Wants a Snack": [1090039, ItemClassification.progression],
+    "Blood Drive": [1090040, ItemClassification.progression],
+    "Scent of Chemory": [1090041, ItemClassification.progression],
+    "Walk With Us In Hell": [1090042, ItemClassification.progression],
+    "Monovai's Revenge": [1090043, ItemClassification.progression],
+    "Prisma's Duplicator": [1090044, ItemClassification.progression],
+    "Glacia's Secret": [1090045, ItemClassification.progression],
+    "Frozen Veyeral Warm Up": [1090046, ItemClassification.progression],
+    "Vibrant Art Exchange": [1090047, ItemClassification.progression],
+    "Blizzard Castle Décor": [1090048, ItemClassification.progression],
+    # Bonding Time Events
+    "Voladrome's Vault Venture": [1090049, ItemClassification.progression],
+    "Stardust Crusade": [1090050, ItemClassification.progression],
+    "Game of Thorns": [1090051, ItemClassification.progression],
+    "Lavalin's Fault": [1090052, ItemClassification.progression],
+    "A Walk Through the Snow": [1090053, ItemClassification.progression],
+    "I Can Fix Her": [1090054, ItemClassification.progression],
+    "Embracing Dot": [1090055, ItemClassification.progression],
+    "Kiwi's Playhouse": [1090056, ItemClassification.progression],
+    "Veyeral Games": [1090057, ItemClassification.progression],
+    "Voltage Min-Max": [1090058, ItemClassification.progression],
+    "Cooking With Magma": [1090059, ItemClassification.progression],
+    # Treasure Events (Shiny battles)
+    "Knot for Naught": [1090060, ItemClassification.progression],
+    "Work for Joule": [1090061, ItemClassification.progression],
+    "Rendy's Buried Treasure": [1090062, ItemClassification.progression],
+    "The Royal Treasure": [1090063, ItemClassification.progression],
+    "Any Way You Want It": [1090064, ItemClassification.progression],
+    "Async Desync": [1090065, ItemClassification.progression],
+    "Murder Dance": [1090066, ItemClassification.progression],
+    "Veyerals Dream Again": [1090067, ItemClassification.progression],
+    "Lucky Break": [1090068, ItemClassification.progression],
+    # Special Events
+    "Alter Your Fate": [1090069, ItemClassification.progression],
+    # Tower Events
+    "Security Breach!": [1090070, ItemClassification.progression],
+    "The Junk Vault": [1090071, ItemClassification.progression],
+    "Made of Emerald": [1090072, ItemClassification.progression],
+    "Made of Ruby": [1090073, ItemClassification.progression],
+    "Made of Topaz": [1090074, ItemClassification.progression],
+    "Made of Sapphire": [1090075, ItemClassification.progression],
+    "Made of Citrine": [1090076, ItemClassification.progression],
+    "Made of Amethyst": [1090077, ItemClassification.progression],
 }
 
-scenes_list = {
+scenes_list = { #will be implemented in major update 1
 
 }
 
@@ -675,11 +830,11 @@ music_list = {
     "Me, Myself, and Eye": [1110057, ItemClassification.skip_balancing]
 }
 
-useful_item_list = {
-
+useful_item_list = { #will be implemented in major update 1
+    
 }
 
-filler_item_list = {
+filler_item_list = { #will be further implemented in major update 1
     "Extra Green Tetrids": [1130000, ItemClassification.filler],
     "Extra Red Tetrids": [1130001, ItemClassification.filler],
     "Extra Yellow Tetrids": [1130002, ItemClassification.filler],
@@ -691,7 +846,7 @@ filler_item_list = {
 
 #"Rose Medal": [107006, ItemClassification.progression], # Num enemies * Num characters, at least 650
 #"Crimson Medal": [107007, ItemClassification.progression] #Num thorned enemis * Num characters
-qp_upgrade_list = {
+qp_upgrade_list = { #will be implemented in major update 2
     "Quickplay – Battle Level": [114000, ItemClassification.progression], #10 levels
     "Quickplay – Ultra Level": [114001, ItemClassification.progression], #30 levels
     "Quickplay – Gift Rank": [114002, ItemClassification.progression], #3 levels
@@ -702,14 +857,14 @@ qp_upgrade_list = {
     "Quickplay – Power Limit": [114007, ItemClassification.progression], #5 levels
 }
 
-altstory_upgrade_list = {
+altstory_upgrade_list = { #will be implemented in major update 2
     "Alter Your Fate – Max Power": [115000, ItemClassification.progression], #20 levels
     "Alter Your Fate – Quick Gifts": [115001, ItemClassification.useful], #5 levels
     "Alter Your Fate – Bonus Gifts": [115002, ItemClassification.useful], #7 levels
     "Alter Your Fate – Tetrid Gifts": [115003, ItemClassification.useful], #3 levels
 }
 
-endless_upgrade_list = {
+endless_upgrade_list = { #will be implemented in major update 2
     "Solara's Gift Shop – Power Gifts": [116000, ItemClassification.progression], #7 levels
     "Solara's Gift Shop – Duplicate Stock": [116001, ItemClassification.useful], #2 levels
     "Solara's Gift Shop – Duplicate Limit": [116002, ItemClassification.useful], #4 levels
@@ -720,7 +875,7 @@ endless_upgrade_list = {
     "Solara's Gift Shop – Remove Gifts": [116007, ItemClassification.useful], #1 level
 }
 
-event_upgrade_list = {
+event_upgrade_list = { #will be implemented in major update 2
     "Radiant Garden – Radiate Rate": [117000, ItemClassification.useful], #10 levels
     "Radiant Garden – Extract Rate": [117001, ItemClassification.useful], #10 levels
     "Radiant Garden – Garden Gifts": [117002, ItemClassification.useful], #4 levels
@@ -769,6 +924,6 @@ other_items_list = {
     "Story Mode: Blessings and Burdens": [1180025, ItemClassification.progression]
 }
 
-default_items = {
+default_items = { #will be implemented in major update 3
 
 }
