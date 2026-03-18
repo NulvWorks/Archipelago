@@ -29,11 +29,13 @@ class Monster:
         return res
 
     def singleLevelLocation(self, medal) -> str:
-        return f"QP – {self.name} – {medal} medal"  
-
-    def sayHi(self):
-        print(self.name + " " +  str(self.minLevel) + "-" + str(self.maxLevel) + "-" + str(self.ultra()))
+        return f"QP – {self.name} – {medal} medal"
+    
+    def allUltraLocations(self, num) -> List[str]:
+        return [f"UQP – Lv {l} {self.name} – {num} radiant medal{('s' if num>1 else '')}" for l in range(self.maxLevel+1, self.ultra()+1)]
         
+    def singleUltraLocation(self, num) -> str:
+        return f"UQP – {self.name} – {num} radiant medal{('s' if num>1 else '')}"
 
 monsterList: List[Monster] = [
     # Shambles
@@ -159,10 +161,11 @@ monsterList: List[Monster] = [
     Monster("Limbo",6,12)
 ]
 
-s = "Radiant"
+s = 3
 
-ll = [[m.singleLevelLocation(s)] + m.allLevelLocations(s) for m in monsterList]
+ll = [[m.singleUltraLocation(s)] + m.allUltraLocations(s) for m in monsterList]
 fullList = [a for b in ll for a in b]
 
-for i, x in enumerate(fullList):
-    print(f"\"{x}\": [106{i:04}, [\"quickplay\"]],")
+with open("res.json","w",encoding="utf-8") as f:
+    for i, x in enumerate(fullList):
+        f.write(f"\"{x}\": [109{i:04}, [\"ult_quick\"]],\n")
