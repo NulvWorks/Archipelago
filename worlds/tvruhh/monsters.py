@@ -152,7 +152,7 @@ monsterList: List[Monster] = [
     Monster("Avoidant Stella",9,9),
     Monster("Rage Celestia",10,10),
     Monster("Equinox",11,11),
-    Monster("Null Chroma",12,12),
+    Monster("Octavia",12,12),
     Monster("Nix Polyps",3,12),
     Monster("Ember Polyps",6,13),
     Monster("Volt Polyps",6,13),
